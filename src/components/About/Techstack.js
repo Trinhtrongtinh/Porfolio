@@ -20,9 +20,7 @@ import {
 
 function Techstack() {
   const techItems = [
-    { id: 'python', icon: <DiPython />, name: 'Python' },
     { id: 'java', icon: <DiJava />, name: 'Java' },
-    { id: 'cpp', icon: <CgCPlusPlus />, name: 'C++' },
     { id: 'javascript', icon: <DiJavascript1 />, name: 'JavaScript' },
     { id: 'react', icon: <DiReact />, name: 'React' },
     { id: 'nodejs', icon: <DiNodejs />, name: 'Node.js' },

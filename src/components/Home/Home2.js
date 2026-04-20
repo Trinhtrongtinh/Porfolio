@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in OOP languages like
               <i>
-                <b className="primary"> Java, Python, C++ and Javascript. </b>
+                <b className="primary"> Typescript, Java, Javascript. </b>
               </i>
               <br />
               <br />
@@ -59,7 +59,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/dfa8336hgjz"
+                  href="https://github.com/Trinhtrongtinh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,32 +69,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/minhchien.phung.79069/"
+                  href="https://www.facebook.com/trongtinh.dragon.7/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillFacebook />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/minh-chien-771670231/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/pmc_9.10/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

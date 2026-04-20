@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import minecraft from "../../Assets/Projects/minecraft.png";
-import hdc from "../../Assets/Projects/hdc.png";
-import proskill from "../../Assets/Projects/proskill.png";
-import odooGarment from "../../Assets/Projects/odooGarment.jpg";
-import viet from "../../Assets/Projects/viet.png";
+import madnight from "../../Assets/Projects/madnight.png";
+import kanban from "../../Assets/Projects/kanban.png";
+import skyjet from "../../Assets/Projects/skyjet.png";
 
 function Projects() {
   return (
@@ -22,52 +20,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={proskill}
+              imgPath={kanban}
               isBlog={false}
-              title="Proskill"
-              description="The software classifies and manages YouTube videos in the form of courses, using ReactJS for the frontend, Node.js for the backend, and MySQL as the database. Allows users to create accounts, register for courses, and leave comments for each course."
-              ghLink="https://github.com/dfa8336hgjz/Proskill_frontend_app"
-              demoLink="https://youtu.be/Dl01nMmLGWg?si=Q-v_Nw_tx5X67CfX"
+              title="Kanban"
+              description="A full-stack project management platform inspired by modern Kanban workflows, featuring a Next.js frontend and a NestJS backend with MySQL as the core database. The system supports secure authentication, workspace and board collaboration, task cards with labels-checklists-comments-attachments, real-time notifications, search, and role-based access, with scalable backend architecture and integrations such as Redis caching/rate limiting and payment-ready modules."
+              ghLink="https://github.com/Trinhtrongtinh/kanban-task-management"
+              demoLink="https://youtu.be/67eYXqC8xG0"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={viet}
-              title="Viet Project"
-              description="The document-based chatbot website supports uploading documents, interacting with their content via chatbot, and managing documents in the form of projects. It is developed using Google's Gemini API, with a tech stack including FastAPI, Next.js, Redis, MySQL, and Weaviate."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://youtu.be/Q7DPt7Lbpxo?si=hdn9Qb5OXoJpJlmM"
+              imgPath={skyjet}
+              title="SkyJet"
+              description="SkyJet is an airline ticket booking system designed as a web-based platform for flight booking and ticketing. The frontend is built with HTML, CSS, and JavaScript, while backend APIs are developed with Spring Boot 3.2.x (Java 21) and integrated with MySQL to handle user requests and data operations. The Identity service supports onboarding users, roles and permissions, and authentication."
+              ghLink="https://github.com/nhavanntd31/airline_be"
+              demoLink="https://www.canva.com/design/DAGDDRD1W8I/7UXXU_wqxseb2b6CnPzw-w/edit?utm_content=DAGDDRD1W8I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hdc}
-              title="HDC Bank Application"
-              description="A banking transaction application integrated with a 6-jar budgeting system, supporting user expense management through AI models and chatbot assistance."
-              ghLink="https://github.com/dfa8336hgjz/VpBank_App_FE.git"
-              demoLink="https://youtube.com/shorts/FWvbXdUcPqc?feature=share"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={minecraft}
-              title="G3Craft"
-              description="A simple proskill clone that allows for infinite terrain generation and basic interaction through movement, block placement, and removal. The entire implementation, from the user interface to game rendering, is built using OpenGL in Java."
-              ghLink="https://github.com/dfa8336hgjz/Minecraft_clone.git"
-              demoLink="https://youtu.be/p7Y6J0QVLWI?si=LvTiqHDEw-83jCaw"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={odooGarment}
-              title="Garment Management System"
-              description="An Odoo-based application for managing garment production processes, including sample, order, inventory and production management. It allows users to manage orders, track inventory levels, and generate production reports."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              imgPath={madnight}
+              title="MAD NIGHT"
+              description="A horror game developed using Unity(C# language), featuring a storyline where players must escape from a haunted house while being pursued by a ghost. The game includes various levels, each with unique challenges and puzzles to solve."
+              ghLink="https://github.com/nhavanntd31/horror"
+              demoLink="https://www.facebook.com/MultimediaTechHust/videos/4056944137961613"
             />
           </Col>
 
