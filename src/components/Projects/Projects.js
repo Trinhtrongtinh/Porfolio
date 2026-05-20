@@ -39,16 +39,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={madnight}
-              title="MAD NIGHT"
-              description="A horror game developed using Unity(C# language), featuring a storyline where players must escape from a haunted house while being pursued by a ghost. The game includes various levels, each with unique challenges and puzzles to solve."
-              ghLink="https://github.com/nhavanntd31/horror"
-              demoLink="https://www.facebook.com/MultimediaTechHust/videos/4056944137961613"
-            />
-          </Col>
-
         </Row>
       </Container>
     </Container>
